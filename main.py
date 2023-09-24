@@ -7,7 +7,7 @@ import os
 APP_ID = os.environ.get('APP_ID')
 API_HASH = os.environ.get('API_HASH')
 SESSION = os.environ.get('SESSION')
-FROM = '@Offerzone_deals,@rinkusamra,@telugutechtvdeals,@iamprasadtech,@AMAZINGLOOTSDEALS,@Best_shopping_offers_and_deals '
+FROM = '@Offerzone_deals,@telugutechtvdeals,@iamprasadtech,@AMAZINGLOOTSDEALS,@Best_shopping_offers_and_deals '
 TO_ = '@ExtraPeBot'
 FROM = FROM.split(",")
 TO = [TO_]
